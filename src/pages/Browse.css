@@ -1,0 +1,29 @@
+.browse-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  justify-content: center;
+  width: 100%;
+
+  outline: 1px dotted;
+  border-radius: 5px;
+
+
+}
+
+.browse-buttons button {
+  flex-grow: 1;
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 8px;
+  margin: 2px;
+  border: none;
+  cursor: pointer;
+  &:hover {
+    background-color: var(--primary-color);
+  }
+}
+
+.browse-page {
+  width: 100%;
+}

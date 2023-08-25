@@ -1,0 +1,23 @@
+.column-selectors {
+  display: flex;
+  gap: 10px;
+  margin: 12px;
+  justify-content: center;
+}
+
+.person-row {
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--primary-color);
+  }
+}
+
+.search-bar {
+  width: 95%;
+  height: 30px;
+
+  margin: 12px;
+  padding: 12px;
+  font-size: 18px;
+}

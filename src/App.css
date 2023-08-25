@@ -1,0 +1,53 @@
+:root {
+  --primary-color: #dfdfdf;
+}
+
+.layout-bar {
+  display: flex;
+  gap: 12px;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.body-container {
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.uploader {
+  display: flex;
+  flex-direction: column;
+}
+
+.mp-headers {
+  display: flex;
+  gap: 16px;
+}
+
+.mp-row {
+  padding: 12px;
+  border-radius: 5px;
+
+  &:hover {
+    cursor: pointer;
+    background-color: var(--primary-color);
+  }
+}
+
+.scrolling {
+  height: 400px;
+  overflow: scroll;
+  background-color: var(--primary-color);
+  border-radius: 5px;
+}
+
+.person-info {
+  text-align: center;
+}
